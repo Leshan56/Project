@@ -1,0 +1,168 @@
+.me{
+    position: absolute;
+    top: 10%;
+    bottom: 100px;
+    right: 360px;
+    display: flex;
+    justify-content: center;
+  }
+  .header{
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .header a{
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+    color: rgb(7, 7, 7);
+    padding-left: 0.05em;
+    padding-right: 0.05em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .socialmedia{
+    size: 10px;
+    position: absolute;
+    top: 0.2em;
+    right: 1em;
+  }
+  #socialmedia{
+    float: right ;
+  }
+  
+  /*About Section */
+  #about{
+    background-color: #E8A87C;
+    text-align: center;
+    margin: -30px;
+    padding: 100px;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    
+   }
+   #about .me {
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color:red;
+  }
+  
+  #about p{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+
+   }
+   #about img {
+     height: 320px;
+     width: 320px;
+     border-radius: 80%;
+     position: 50%;
+     top: 100px;
+     left: 100px;
+     opacity: 30%;
+   }
+    .logo2{
+      height: 120px;
+      width: 120px;
+      align-items: center;
+  }
+  
+  
+  /*Technology Section*/
+  .tech{
+    background-color: tomato;
+    margin: -30px;
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+  }
+  .tech img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+  .tech p {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+  }
+  .tech img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+  /*Education section*/
+  .education{
+    background-color: #E8A87C;
+    text-align: left;
+    margin: -30px;
+    padding: 100px;
+  }
+  .head {
+    font-family:'Courier New', monospace;
+    font-size: 60px;
+    text-align: center;
+  }
+  .education p {
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+  }
+  
+  /*Split the education section into 2 sections*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    border: 10px;
+    border-color: aqua;
+  
+  }
+  
+  /*Project section*/
+  .projects{
+    background-color: tomato;
+    margin: -30px;
+    text-align: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    
+  }
+  .projects p {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+  }
+  /*Add black and white to the images*/
+  .projects img{
+    border-radius: 50%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+  .projects img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+  .projects ul{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+  
+  }
+  .footer{
+      background-color:black;
+      text-align: left;
+      margin: -30px;
+      padding: 10px;
+      font-family: 'Courier New', monospace;
+      font-size: 15px;
+  
+  }
+  .footer p{
+    color: white;
+    text-align: center;
+  }
